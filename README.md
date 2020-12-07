@@ -4,10 +4,10 @@ Week 2 Homework - Bootstrap Portfolio
 My Bootstrap Portfolio is a fully responsive portfolio website that scales to all screen sizes.
 
 
-![bootstrap-portfolio](../assets/images/bootstrap-portfolio.png)
+![bootstrap-portfolio](assets/images/bootstrap-portfolio.png)
 
 
-Contents:
+**Contents:**
 
 * index.html - Contains HTML for the about me page
 * contact.html - Contains HTML for the contact me page
@@ -16,7 +16,7 @@ Contents:
 * README.md
 
 
-Tools Used:
+**Tools Used:**
 
 * Bootstrap website - Layouts (grid systems - columns and rows), Contents and Forms
 * w3schools website - Footer Layout
