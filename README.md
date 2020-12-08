@@ -6,6 +6,10 @@ My Bootstrap Portfolio is a fully responsive portfolio website that scales to al
 
 ![bootstrap-portfolio](assets/images/bootstrap-portfolio.png)
 
+![bootstrap-portfolio](assets/images/portfolio.png)
+
+
+![bootstrap-portfolio](assets/images/contact.png)
 
 **Contents:**
 
@@ -20,5 +24,5 @@ My Bootstrap Portfolio is a fully responsive portfolio website that scales to al
 
 * Bootstrap website - Layouts (grid systems - columns and rows), Contents and Forms
 * w3schools website - Footer Layout
-* Iconfinder.com website for social media icons - Facebook and LinkedIN icons
+* Iconfinder.com website for social media icons - Facebook and Linkedin icons
 * placeholder.com for place holder images on the portfolio page - Placeholder images
