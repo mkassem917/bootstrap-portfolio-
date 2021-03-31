@@ -1,90 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
 
-    <!-- link to bootstrap -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
-      crossorigin="anonymous"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
 
-    <!-- link to style sheet -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
+  <!-- link to bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
 
-  <body>
-    <!--nav bar-->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand">Mohammad Kassem</a>
-      <button
-        class="navbar-toggler"
-        data-toggle="collapse"
-        data-target="#NavMiniMenu"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <div class="social">
-            <a
-              class="navbar-brand"
-              href="https://github.com/mkassem917"
-              target="_blank"
-            >
-              <img
-                src="./assets/images/github.png"
-                width="30"
-                height="30"
-                alt="github Icon"
-              />
-            </a>
-            <a
-              class="navbar-brand"
-              href="https://www.linkedin.com/in/mohammad-kassem-90820515b"
-              target="_blank"
-            >
-              <img
-                src="./assets/images/iconfinder_1_Linkedin_unofficial_colored_svg_5296501.png"
-                width="25"
-                height="25"
-                alt="LinkedIn Icon"
-              />
-            </a>
-          </div>
+  <!-- link to style sheet -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <!--nav bar-->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand">Mohammad Kassem</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#NavMiniMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="social">
+          <a class="navbar-brand" href="https://github.com/mkassem917" target="_blank">
+            <img src="./assets/images/github.png" width="30" height="30" alt="github Icon" />
+          </a>
+          <a class="navbar-brand" href="https://www.linkedin.com/in/mohammad-kassem-90820515b" target="_blank">
+            <img src="./assets/images/iconfinder_1_Linkedin_unofficial_colored_svg_5296501.png" width="25" height="25"
+              alt="LinkedIn Icon" />
+          </a>
         </div>
       </div>
+    </div>
 
-      <!-- social media links and icons -->
-      <div class="collapse navbar-collapse" id="NavMiniMenu">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a href="./contact.html" class="nav-link">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a href="./portfolio.html" class="nav-link">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a href="./index.html" class="nav-link">Home</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <!-- social media links and icons -->
+    <div class="collapse navbar-collapse" id="NavMiniMenu">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="./contact.html" class="nav-link">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a href="./portfolio.html" class="nav-link">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a href="./index.html" class="nav-link">Home</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-    <!--Container Grid -->
+  <!--Container Grid -->
 
-    <!-- Burger Logger -->
+  <!-- Vax Trax -->
+  <div class="col-sm-6">Card 1</div>
+    <div class="card border-primary mb-3" style="max-width: 12rem;"></div>
     <div class="card-deck">
       <div class="card">
-        <img
-          src="./assets/images/Burger.png"
-          class="card-img-top"
-          alt="Burger Logger"
-        />
+        <img src="./assets/images/vaxtrax.png" class="card-img-top" alt="Vax Trax" />
+
+        <div class="card-body">
+          <h5 class="card-title"><strong>Vax Trax</strong></h5>
+          <p class="card-text">
+            This app is designed to assist people signing up for their COVID-19 vaccine. There is a sign up page for the user to input their information, including name, email, state of residence as well as verifying their age and if they are an essential worker. This information is then stored in a database. After the user is signed up, they are taken to a page that displays their state's statistics concerning COVID-19. If the user is eligible for the vaccine, there will be an embedded map with the closest vaccine clinic.
+          </p>
+          <p class="card-text"><small class="text-muted"></small></p>
+          <a class="btn btn-primary" target="_blank" href="https://github.com/mkassem917/shots" role="button">Github
+            Repo</a>
+          <a class="btn btn-success" target="_blank" href="https://vaccine-app-project2.herokuapp.com/" role="button">Deployed
+            Version</a>
+        </div>
+     </div>
+
+  <!-- Burger Logger -->
+  <div class="col-sm-6">Card 1</div>
+    <div class="card border-primary mb-3" style="max-width: 12rem;"></div>
+    <div class="card-deck">
+      <div class="card">
+        <img src="./assets/images/Burger.png" class="card-img-top" alt="Burger Logger" />
 
         <div class="card-body">
           <h5 class="card-title"><strong>Burger Logger</strong></h5>
@@ -92,149 +86,103 @@
             The Burger Logger Application is running with MySQL, Node, Express, Handlebars using MVC Design Pattern
           </p>
           <p class="card-text"><small class="text-muted"></small></p>
-          <a
-            class="btn btn-primary"
-            target="_blank"
-            href="https://github.com/mkassem917/burger"
-            role="button"
-            >Github Repo</a
-          >
-          <a
-            class="btn btn-success"
-            target="_blank"
-            href="https://burger-app-moe.herokuapp.com/"
-            role="button"
-            >Deployed Version</a
-          >
+          <a class="btn btn-primary" target="_blank" href="https://github.com/mkassem917/burger" role="button">Github
+            Repo</a>
+          <a class="btn btn-success" target="_blank" href="https://burger-app-moe.herokuapp.com/" role="button">Deployed
+            Version</a>
         </div>
       </div>
 
-    <!-- Day Planner Card -->
-    <div class="card-deck">
-      <div class="card">
-        <img
-          src="./assets/images/day-planner.png"
-          class="card-img-top"
-          alt="Day Planner"
-        />
+      <!-- Day Planner Card -->
+      <div class="col-sm-6">Card 2</div>
+      <div class="card border-primary mb-3" style="max-width: 18rem;"></div>
+      <div class="card-deck">
+        <div class="card">
+          <img src="./assets/images/day-planner.png" class="card-img-top" alt="Day Planner" />
 
-        <div class="card-body">
-          <h5 class="card-title"><strong>Day Planner</strong></h5>
-          <p class="card-text">
-            This application is displaying a standard business day where the
-            users will be able to write notes and save them accordingly to thier
-            schedule. The color red will be displaying the current hour, the
-            green the upcoming hours and the gray the pass hours.
-          </p>
-          <p class="card-text"><small class="text-muted"></small></p>
-          <a
-            class="btn btn-primary"
-            target="_blank"
-            href="https://github.com/mkassem917/day-planner"
-            role="button"
-            >Github Repo</a
-          >
-          <a
-            class="btn btn-success"
-            target="_blank"
-            href="https://mkassem917.github.io/day-planner/"
-            role="button"
-            >Deployed Version</a
-          >
+          <div class="card-body">
+            <h5 class="card-title"><strong>Day Planner</strong></h5>
+            <p class="card-text">
+              This application is displaying a standard business day where the
+              users will be able to write notes and save them accordingly to thier
+              schedule. The color red will be displaying the current hour, the
+              green the upcoming hours and the gray the pass hours.
+            </p>
+            <p class="card-text"><small class="text-muted"></small></p>
+            <a class="btn btn-primary" target="_blank" href="https://github.com/mkassem917/day-planner"
+              role="button">Github Repo</a>
+            <a class="btn btn-success" target="_blank" href="https://mkassem917.github.io/day-planner/"
+              role="button">Deployed Version</a>
+          </div>
+        </div>
+
+        <!-- Drinks Please Card -->
+        <div class="col-sm-6">Card 3</div>
+        <div class="card border-primary mb-3" style="max-width: 18rem;"></div>
+      <div class="card-deck">
+        <div class="card">
+          <img src="./assets/images/drinksplease.png" class="card-img-top" alt="Day Planner" />
+          <div class="card-body">
+            <h5 class="card-title">
+              <strong>Drinks Please! - 1st group project</strong>
+            </h5>
+            <p class="card-text">
+              The “Drinks, Please” web application is an interactive tool for a
+              user to research a drink based on their location. The featured drink
+              is presented to the user with an image, ingredients list and a set
+              of directions to make the drink.
+            </p>
+            <p class="card-text"><small class="text-muted"></small></p>
+            <a class="btn btn-primary" target="_blank" href="https://github.com/vshulman25/drinksplease"
+              role="button">Github Repo</a>
+            <a class="btn btn-success" target="_blank" href="https://vshulman25.github.io/drinksplease/"
+              role="button">Deployed Version</a>
+          </div>
+        </div>
+
+        <!-- Code Quiz Card -->
+        <div class="col-sm-6">Card 4</div>
+        <div class="card border-primary mb-3" style="max-width: 18rem;"></div>
+      <div class="card-deck">
+        <div class="card">
+          <img src="./assets/images/quiz.png" class="card-img-top" alt="Day Planner" />
+
+          <div class="card-body">
+            <h5 class="card-title"><strong>Code Quiz</strong></h5>
+            <p class="card-text">
+              This is a Code Quiz Challenge! Answer 5 questions about coding
+              concepts. View High Scores, Enter your name to be added to the High
+              Scores
+            </p>
+            <p class="card-text"><small class="text-muted"></small></p>
+            <a class="btn btn-primary" target="_blank" href="https://github.com/mkassem917/code-quiz"
+              role="button">Github Repo</a>
+            <a class="btn btn-success" target="_blank" href="https://mkassem917.github.io/code-quiz/"
+              role="button">Deployed Version</a>
+
+
+
+
+          </div>
         </div>
       </div>
 
-      <!-- Drinks Please Card -->
-      <div class="card">
-        <img
-          src="./assets/images/drinksplease.png"
-          class="card-img-top"
-          alt="Day Planner"
-        />
-        <div class="card-body">
-          <h5 class="card-title">
-            <strong>Drinks Please! - 1st group project</strong>
-          </h5>
-          <p class="card-text">
-            The “Drinks, Please” web application is an interactive tool for a
-            user to research a drink based on their location. The featured drink
-            is presented to the user with an image, ingredients list and a set
-            of directions to make the drink.
-          </p>
-          <p class="card-text"><small class="text-muted"></small></p>
-          <a
-            class="btn btn-primary"
-            target="_blank"
-            href="https://github.com/vshulman25/drinksplease"
-            role="button"
-            >Github Repo</a
-          >
-          <a
-            class="btn btn-success"
-            target="_blank"
-            href="https://vshulman25.github.io/drinksplease/"
-            role="button"
-            >Deployed Version</a
-          >
+
+
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+      </script>
+
+      <!-- Footer -->
+      <footer id="sticky-footer" class="py-20 bg-dark text-white-50">
+        <div class="container text-center">
+          <small>Copyright &copy; Mohammad Kassem's Portfolio</small>
         </div>
-      </div>
+      </footer>
+</body>
 
-      <!-- Code Quiz Card -->
-      <div class="card">
-        <img
-          src="./assets/images/quiz.png"
-          class="card-img-top"
-          alt="Day Planner"
-        />
-
-        <div class="card-body">
-          <h5 class="card-title"><strong>Code Quiz</strong></h5>
-          <p class="card-text">
-            This is a Code Quiz Challenge! Answer 5 questions about coding
-            concepts. View High Scores, Enter your name to be added to the High
-            Scores
-          </p>
-          <p class="card-text"><small class="text-muted"></small></p>
-          <a
-            class="btn btn-primary"
-            target="_blank"
-            href="https://github.com/mkassem917/code-quiz"
-            role="button"
-            >Github Repo</a
-          >
-          <a
-            class="btn btn-success"
-            target="_blank"
-            href="https://mkassem917.github.io/code-quiz/"
-            role="button"
-            >Deployed Version</a>
-
-            
-
-          
-        </div>
-      </div>
-    </div>
-
-
-    
-
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-      crossorigin="anonymous"
-    ></script>
-
-    <!-- Footer -->
-    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
-      <div class="container text-center">
-        <small>Copyright &copy; Mohammad Kassem's Portfolio</small>
-      </div>
-    </footer>
-  </body>
 </html>
